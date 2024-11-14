@@ -1,0 +1,257 @@
+* {
+  margin: auto;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 12px;
+}
+.img-logo {
+  margin-top: -55px;
+  height: 550px;
+  width: 1050px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+.nav-bar {
+  overflow: hidden;
+  background-color: #d73f08;
+  margin-left: 18px;
+  margin-right: 12px;
+  margin-bottom: 55px;
+  font-size: 20px;
+}
+.nav-bar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.nav-bar a:hover {
+  color: black;
+}
+.hover:hover {
+  background-color: #3B5998;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn:hover {
+  background-color: #3B5998;
+}
+.dropdown .dropbtn {
+  font-size: 20px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #9d9d9d;
+  color: black;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+h3 {
+  font-size: 50px;
+  font-style: oblique;
+  text-align: center;
+}
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 20px;
+}
+.contenedor div {
+  background-color: rgba(199, 96, 96, alpha);
+  text-align: left;
+  padding: 10px;
+  border: 3px solid grey;
+  border-radius: 10px;
+  box-shadow: 10px 10px 20px;
+}
+.img-item1, .img-item2, .img-item3, .img-item4{
+  width: 140px;
+  height: 90px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover, .item6:hover, .item7:hover, .item8:hover {
+  transform: scale(1.1);
+}
+.item5 {
+  width: 250px;
+  height: 240px;
+}
+.img-item5 {
+  width: 185px;
+  height: 80px;
+  padding: 5px;
+  margin-top: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-item6, .img-item7, .img-item8 {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-title {
+  font-size: 17px;
+}
+h4 {
+  font-size: 20px;
+  text-align: right;
+  margin-right: 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.title-form {
+  font-size: 25px;
+  margin-top: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+form {
+  /* Centrar el formulario en la página */
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  padding: 10px 0 20px;
+  /* Esquema del formulario */
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  box-shadow: 0 8px 8px 2px rgba(0, 0, 0, 0.2);
+}
+label {
+  width: 40%;
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 90px;
+}
+input, textarea {
+  margin-left: 38px;
+}
+input, textarea {
+  /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+     Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+  font: 1em sans-serif;
+  font-size: 14px;
+
+  /* Tamaño uniforme del campo de texto */
+  width: 300px;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+
+  /* Hacer coincidir los bordes del campo del formulario */
+  border: 2px solid #999;
+
+  padding: 10px;
+}
+input:focus, textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #323232;
+}
+.button-1, .button-2 {
+  display: inline-block;
+  justify-items: center;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 75px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 1rem;
+}
+.button-1:hover, .button-2:hover {
+  background-color: #55ACEE;
+  color: antiquewhite;
+}
+footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #d73f08;
+}
+.fa {
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 8px;
+  border-radius: 2000px;
+}
+.fa:hover {
+  opacity: 0.6;
+}
+.fa-instagram {
+  background: #730f87;
+  color: white;
+  padding: 20px;
+  margin-left: 30px;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 20px;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 20px;
+}
+.terms, .contact, .made-by {
+  text-decoration-line: none;
+  font-size: 18px;
+  float: right;
+  display: flex;
+  justify-items: flex-end;
+  align-items: flex-end;
+  padding: 30px;
+  margin-left: 10px;
+  color: white;
+}
+fieldset {
+  border: none;
+}
